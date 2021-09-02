@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" href="fabicon.png" type="x-icon">
+    <title>Welcome to my first website</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <!--Para sa banner-->
+    <div class="banner">
+        <h1>Management</h1>
+    </div>
+    <!--para to sa logIn form container or wraper-->
+
+    <!--ito ang main_container para sa pag login-->
+    <div class="main_container">
+
+        <div class="input">
+
+            <div class="inputwrap">
+
+                <form action="ph.php" method="POST" onsubmit="return validateForm()">
+                    <label for="username">Username  </label><br>
+                    <input type="text" id="username" placeholder="Enter username" required autofocus name="username">
+                    <hr>
+
+                    <br>
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" id="password" placeholder="Enter password" required>
+                    <hr>
+                    <p id="error_message"></p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                    <input type="submit" value="Log In" class="login">
+                </form>
+                   
+                 <a href="hhm.html" class="createAcc">Create an Account?</a>
+                    <br>
+                
+            </div>
+
+            
+        </div>
+        
+               <div class="wrapicon">
+                   <img src="Icon.png" alt="owner" class="icon" />  
+                   
+                       <a href="#" class="owner">Valdez</a>
+               </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+{
+  "run": {
+    "type": "file",
+    "file": "log_in_form.html",
+    "ignoreCurrent": true
+  }
+}
